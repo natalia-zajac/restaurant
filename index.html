@@ -13,27 +13,76 @@
     <link href="/css/main-banner.css" rel="stylesheet">
     <link href="/css/container.css" rel="stylesheet">
     <link href="/css/about-us.css" rel="stylesheet">
+    <link href="/css/main-navigation.css" rel="stylesheet">
+    <script defer src="/js/main-navigation.js"></script>
     <title>Mamine smaczki</title>
 </head>
 
 <body>
-    <section class="main-banner">
+    <nav class="main-navigation">
+        <div class="main-navigation__inner">
+            <div class="main-navigation__logo">
+                <a href="#" class="main-navigation__logo-link"><img src="images/logo.svg" alt="Logo"
+                        class="main-navigation__logo-image">Mamine smaczki</a>
+            </div>
+            <ul class="main-navigation__menu js-main-navigation__menu">
+                <li class="main-navigation__menu-item">
+                    <a href="#home" class="main-navigation__link">Home</a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#about-us" class="main-navigation__link">O nas</a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#menu" class="main-navigation__link">Menu</a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#gallery" class="main-navigation__link">Galeria</a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#contact" class="main-navigation__link">Kontakt</a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#map" class="main-navigation__link">Jak dojechać</a>
+                </li>
+
+                <li class="main-navigation__menu-item">
+                    <a href="https://instagram.com" target="_blank" class="main-navigation__link">
+                        <img src="/images/icons/social/instagram.svg" alt="Instagram"
+                            class="main-navigation__social-icon"></a>
+                </li>
+
+                <li class="main-navigation__menu-item">
+                    <a href="https://facebook.com" target="_blank" class="main-navigation__link">
+                        <img src="/images/icons/social/facebook.svg" alt="Facebook"
+                            class="main-navigation__social-icon"></a>
+                </li>
+            </ul>
+            <button class="main-navigation__mobile-button js-main-navigation__mobile-button">
+                <img src="images/icons/navigation.svg" alt="Otwórz / zamknij nawigację"
+                    class="main-navigation__mobile-button-image">
+            </button>
+        </div>
+    </nav>
+
+    <section class="main-banner" id="home">
         <a href="#about-us" class="main-banner__button">Poznaj nas lepiej</a>
     </section>
 
-    <div class="container">
+    <div class="container" id="about-us">
         <section class="about-us">
-            
-         <div class="about-us__text">
-            <h3 class="about-us__header">Nie jesteśmy tylko restauracją</h3>
-            <p class="about-us__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio unde totam
-                porro reprehenderit adipisci iure natus nesciunt beatae praesentium cum, consequuntur sapiente, iste ea
-                tempore aut nam id ad minus?</p>
-            <p class="about-us__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eos sunt
-                officiis delectus iusto doloremque voluptates voluptatem praesentium laudantium. Enim voluptatibus magni
-                porro, iure quaerat ducimus earum consectetur atque eveniet!</p>
-         </div>
-         <img class="about-us__image" alt="" src="https://i.postimg.cc/jSNrwzPq/about-us.jpg">
+
+            <div class="about-us__text">
+                <h3 class="about-us__header">Nie jesteśmy tylko restauracją</h3>
+                <p class="about-us__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio unde totam
+                    porro reprehenderit adipisci iure natus nesciunt beatae praesentium cum, consequuntur sapiente, iste
+                    ea
+                    tempore aut nam id ad minus?</p>
+                <p class="about-us__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eos sunt
+                    officiis delectus iusto doloremque voluptates voluptatem praesentium laudantium. Enim voluptatibus
+                    magni
+                    porro, iure quaerat ducimus earum consectetur atque eveniet!</p>
+            </div>
+            <img class="about-us__image" alt="" src="https://i.postimg.cc/jSNrwzPq/about-us.jpg">
         </section>
     </div>
 </body>
