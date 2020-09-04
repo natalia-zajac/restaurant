@@ -17,6 +17,7 @@
     <link href="/css/bookmark.css" rel="stylesheet">
     <link href="/css/menu.css" rel="stylesheet">
     <link href="/css/gallery.css" rel="stylesheet">
+    <link href="/css/contact.css" rel="stylesheet">
     <script defer src="/js/main-navigation.js"></script>
     <title>Mamine smaczki</title>
 </head>
@@ -227,6 +228,40 @@
         <h2 class="bookmark__header">Kontakt</h2>
         <p class="bookmark__paragraph">Skontaktuj się z nami i zarezerwuj stolik</p>
     </section>
+
+
+    <form class="contact-form">
+        <div class="container container--smaller">
+            <div class="contact-form__info">
+                <div class="contact-form__info-item">
+                    <img src="/images/icons/envelope.svg" alt="E-mail" class="contact-form__info-icon">
+                    <a href="mailto:kontakt@restauracja.pl" class="contact-form__info-link">kontakt@restauracja.pl</a>
+                </div>
+                <div class="contact-form__info-item">
+                    <div class="contact-form__info-item">
+                        <img src="/images/icons/phone.svg" alt="Telefon" class="contact-form__info-icon">
+                        <a href="tel:7365540041" class="contact-form__info-link">736 554 0041</a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="contact-form__text">
+                Jeśli nie znalazłeś na naszej stronie informacji, których potrzebujesz, <br>
+                wyślij formularz kontaktowy lub zadzwoń. <br>
+                Chętnie z Tobą porozmawiamy i odpowiemy na wszystkie pytania.
+            </p>
+
+            <div class="contact-form__fields">
+                <input name="name" class="contact-form__field" required placeholder="Imię i nazwisko">
+                <input name="email" class="contact-form__field" type="email" required placeholder="Adres e-mail">
+                <textarea placeholder="Treść wiadomości" class="contact-form__field contact-form__field--full-row"
+                    name="content" required rows="10"></textarea>
+            </div>
+
+            <button class="contact-form__submit-button">Wyślij</button>
+
+        </div>
+    </form>
 
     <section class="bookmark bookmark--route" id="route">
         <h2 class="bookmark__header">Jak dojechać</h2>
