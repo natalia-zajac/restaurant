@@ -70,12 +70,12 @@
 }
 
 .contact-form__field--full-row {
-    width: calc(100% - var(--gap))
+    width: calc(100% - var(--gap));
 }
 
 @media(max-width: 767px) {
     .contact-form__field {
-        width: calc(100% - var(--gap))
+        width: calc(100% - var(--gap));
     }
 }
 

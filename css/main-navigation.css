@@ -15,12 +15,9 @@
 
 @media(max-width: 991px) {
     .main-navigation__logo-image {
-        width: 50px;
+        width: 40px;
+        margin-right: 10px;
     }
-}
-
-.main-navigation__social-icon {
-    width: 16px;
 }
 
 .main-navigation__inner {
