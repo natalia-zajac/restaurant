@@ -1,7 +1,7 @@
 # Restaurant "Mamine smaczki"
 
 ## Demo
-
+ https://natalia-zajac.github.io/restaurant/
 
 ## Description
 My restaurant website created during the "HTML and CSS course from scratch" from YouCode.
@@ -13,3 +13,4 @@ My restaurant website created during the "HTML and CSS course from scratch" from
 - BEM convention
 
 ## Previous
+images/maminesmaczki.jpg
