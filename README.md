@@ -12,5 +12,5 @@ My restaurant website created during the "HTML and CSS course from scratch" from
 - JavaScript
 - BEM convention
 
-## Previous
+## Preview
 ![Mamine smaczki](images/maminesmaczki.jpg)
